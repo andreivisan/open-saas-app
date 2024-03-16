@@ -2,7 +2,7 @@
 
 This is a SAAS application with the frontend built in NextJS and the service layer built in Python using FastAPI.
 
-![In a single picture](https://raw.githubusercontent.com/andreivisan/open-saas-app/OpenSAAS-Dashboard-Home-Page.png)
+![In a single picture]([https://raw.githubusercontent.com/andreivisan/open-saas-app/OpenSAAS-Dashboard-Home-Page.png](https://github.com/andreivisan/open-saas-app/blob/main/OpenSAAS-Dashboard-Home-Page.png))
 
 
 ## Goals
