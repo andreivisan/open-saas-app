@@ -7,6 +7,7 @@ function DashboardHomePage() {
             justify-between
             w-full
             md:mt-20
+            p-8
             bg-white
             border-t-2
             border-zinc-100">

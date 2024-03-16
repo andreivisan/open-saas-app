@@ -3,6 +3,9 @@
 import React, { useState } from 'react'
 import { FiMenu } from 'react-icons/fi';
 
+import SidebarMenuItem from './SidebarMenuItem';
+import SideBarMenuItems from '../../../data/side-bar-menu-items';
+
 function SideBarNav() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +21,8 @@ function SideBarNav() {
                 w-full 
                 h-screen
                 pt-4
-                pr-4
+                pr-8
+                pl-8
                 transition-width
                 duration-200
                 ease-in-out
@@ -34,7 +38,9 @@ function SideBarNav() {
                 </div>
             
                 <div className='mt-10'>
-                    Menu
+                    {SideBarMenuItems.map((item, index) => (
+                        <SidebarMenuItem key={index} icon={item.icon} name={item.name} route={item.route} isOpen={isOpen} />
+                    ))}
                 </div>
             </div>
         </div>
