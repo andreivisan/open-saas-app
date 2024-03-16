@@ -11,8 +11,10 @@ function DashboardHomePage() {
             bg-white
             border-t-2
             border-zinc-100">
-        <p>Home Page Start</p>
-        <p>Home Page End</p>
+        <h1 className='
+              text-xl'>
+                Home Page
+        </h1>
     </div>
   )
 }

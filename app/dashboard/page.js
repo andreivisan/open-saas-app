@@ -1,11 +1,10 @@
 "use client"
 
 import React from 'react'
+import DashboardHomePage from '../components/dashboard/home/DashboardHomePage'
 
 export default function DashboardPage() {
     return (
-        <div>
-            <h1>Dashboard Page</h1>
-        </div>
+        <DashboardHomePage />
     )
 }
