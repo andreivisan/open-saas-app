@@ -7,7 +7,9 @@ function DashboardHomePage() {
             justify-between
             w-full
             md:mt-20
-            bg-sky-300">
+            bg-white
+            border-t-2
+            border-zinc-100">
         <p>Home Page Start</p>
         <p>Home Page End</p>
     </div>

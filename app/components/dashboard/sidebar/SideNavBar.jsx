@@ -22,7 +22,9 @@ function SideBarNav() {
                 transition-width
                 duration-200
                 ease-in-out
-                bg-green-300`}>
+                bg-white
+                border-r-2
+                border-zinc-100`}>
                 <div className={`
                     ${isOpen ? 'text-right' : 'text-center'}
                     mt-4`}>

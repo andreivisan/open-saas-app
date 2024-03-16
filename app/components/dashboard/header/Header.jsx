@@ -8,7 +8,7 @@ function Header() {
         w-full 
         h-20 
         absolute
-        bg-red-300">
+        bg-white">
         <h1>Header</h1>
     </div>
   )
